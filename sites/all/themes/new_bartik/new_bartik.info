@@ -1,7 +1,7 @@
 
-name = Bartik
-description = A flexible, recolorable theme with many regions.
-package = Core
+name = New Bartik
+description = Subtheme of Bartik theme
+package = Custom
 version = VERSION
 core = 7.x
 
