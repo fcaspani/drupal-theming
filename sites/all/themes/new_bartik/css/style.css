@@ -454,6 +454,10 @@ h1#site-name {
   padding: 0 0.5em;
 }
 
+.wide{
+    width: 100%;
+}
+
 /* --------------- Main Menu ------------ */
 
 #main-menu {

@@ -225,6 +225,9 @@
     </div></div> <!-- /#triptych, /#triptych-wrapper -->
   <?php endif; ?>
 
+    <!-- region widescren 100 % width-->
+    <div id="wide" class="wide"><div class="section"><?php print render($page['wide']); ?></div></div>
+
   <div id="footer-wrapper"><div class="section">
 
     <?php if ($page['footer_firstcolumn'] || $page['footer_secondcolumn'] || $page['footer_thirdcolumn'] || $page['footer_fourthcolumn']): ?>
