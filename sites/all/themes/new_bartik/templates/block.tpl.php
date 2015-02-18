@@ -53,11 +53,11 @@
     <?php print $content ?>
   <div>
     <?php
-    $time = REQUEST_TIME;
-    $day = format_date($time,'custom','l');
-    if ($day == 'Friday'){
-      print 'Buon weekend';
-    }
+    if ($message_weekend) :?>
+    <div>
+      <?php print $message_weekend; ?>
+      </div>
+    <? endif;
     ?>
   </div>
   </div>

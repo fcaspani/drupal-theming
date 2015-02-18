@@ -122,6 +122,16 @@ function new_bartik_preprocess_block(&$variables) {
   if ($variables['block']->region == 'header') {
     $variables['title_attributes_array']['class'][] = 'element-invisible';
   }
+
+  // Message for weekend
+  $time = REQUEST_TIME;
+  $day = format_date($time,'custom','l');
+  $message_weekend = NULL;
+  if ($day == 'Friday'){
+     $message_weekend = 'Buon weekend';
+  }
+  $variables['message_weekend'] = $message_weekend;
+
 }
 
 /**
