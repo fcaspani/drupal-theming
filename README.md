@@ -9,9 +9,9 @@ How use this repository?
 
 Instructions
 
-1 - Clone repo o download .zip
-2 - Put the folder in your doocroot (eg . www) and configure your virtualhost
-3 - Add database drupal_theming in your mySQL 
-4 - Go to your local site
+1 - Clone repo o download .zip </br>
+2 - Put the folder in your doocroot (eg . www) and configure your virtualhost </br>
+3 - Add database drupal_theming in your mySQL </br>
+4 - Go to your local site </br>
 
 N.B. sites/default/settings.php contains information about database settings 
