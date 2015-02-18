@@ -182,3 +182,12 @@ function new_bartik_breadcrumb(&$variables) {
     return $output;
   }
 }
+
+/**
+ * Implements hook_js_alter().
+ */
+function new_bartik_js_alter(&$javascript) {
+   foreach ($javascript as $name => $script) {
+     $javascript[$name]['scope'] = 'footer';
+     }
+}
